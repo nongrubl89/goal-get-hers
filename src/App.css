@@ -1,0 +1,10 @@
+:root {
+  --pink: #e785ea;
+  --green: #28a428;
+  --orange: #ff8533;
+  --navy: #022650;
+}
+
+.navbar {
+  background-color: var(--pink);
+}

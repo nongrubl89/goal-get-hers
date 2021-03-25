@@ -1,0 +1,69 @@
+:root {
+  --pink: #ea96ed;
+  --green: #28a428;
+  --orange: #ff8533;
+  --navy: #022650;
+}
+
+.navbar {
+  background-color: var(--navy);
+  padding: 1rem 3em !important;
+  border-top: 4px solid var(--orange);
+}
+
+.nav-link {
+  color: white !important;
+  font-family: "Source Sans Pro", Sans-Serif;
+  font-size: 16px;
+}
+
+p,
+.card-text {
+  font-family: "Source Sans Pro", Sans-Serif;
+  font-size: 20px;
+}
+
+.navbar-brand,
+h1,
+.card-title {
+  font-family: "Playfair Display", Serif;
+  font-size: 1.75em !important;
+  font-weight: 800;
+  color: var(--pink) !important;
+}
+
+.nav-link:hover {
+  color: var(--pink) !important;
+}
+
+.img-in-jumbotron {
+  max-height: 325px;
+}
+
+.jumbotron-fluid {
+  background-color: white;
+  padding: 3em !important;
+}
+
+.btn {
+  background-color: var(--green) !important;
+  border: var(--green) im !important;
+}
+
+.btn:hover {
+  background-color: #1c7c13 !important;
+  border: #1c7c13 !important;
+}
+
+a {
+  text-decoration: none;
+  color: white !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.donate-link {
+  color: var(--pink) !important;
+}
