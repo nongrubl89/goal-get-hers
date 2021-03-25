@@ -19,9 +19,9 @@ class Navigation extends React.Component {
             className="justify-content-end"
           >
             <Nav className="justify-content-end">
-              <Nav.Link href="/about">Our Mission</Nav.Link>
-              <Nav.Link href="/team">Team</Nav.Link>
-              <Nav.Link href="/services">Services</Nav.Link>
+              <Nav.Link href="/about">What We Believe</Nav.Link>
+              <Nav.Link href="/team">Who We Are</Nav.Link>
+              <Nav.Link href="/services">What We Do</Nav.Link>
               <Nav.Link className="donate-link" href="/donate">
                 Donate
               </Nav.Link>
