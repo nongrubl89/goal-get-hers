@@ -1,10 +1,9 @@
 import React from "react";
 import { Row, Col, Jumbotron, Button } from "react-bootstrap";
 import Badmitton from "../jumbotron-img.svg";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import About from "./About";
 import CardContainer from "./CardContainer";
-import ContactFooter from "./ContactFooter";
 
 export default function Home() {
   return (
