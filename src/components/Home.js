@@ -30,7 +30,7 @@ export default function Home() {
           </Col>
           <Col className="jumbotron-right" md={4} sm={2} xs={0}>
             <img
-              className="img-in-jumbotron"
+              className="img-in-jumbotron pt-3"
               src={Badmitton}
               alt="badmitton"
             ></img>
