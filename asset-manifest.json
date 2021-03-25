@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/goal-get-hers/static/css/main.6878fb35.chunk.css",
+    "main.js": "/goal-get-hers/static/js/main.4557f026.chunk.js",
+    "main.js.map": "/goal-get-hers/static/js/main.4557f026.chunk.js.map",
+    "runtime-main.js": "/goal-get-hers/static/js/runtime-main.672c322b.js",
+    "runtime-main.js.map": "/goal-get-hers/static/js/runtime-main.672c322b.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/goal-get-hers/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.9e75418d.chunk.js": "/goal-get-hers/static/js/2.9e75418d.chunk.js",
+    "static/js/2.9e75418d.chunk.js.map": "/goal-get-hers/static/js/2.9e75418d.chunk.js.map",
+    "index.html": "/goal-get-hers/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/goal-get-hers/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.6878fb35.chunk.css.map": "/goal-get-hers/static/css/main.6878fb35.chunk.css.map",
+    "static/js/2.9e75418d.chunk.js.LICENSE.txt": "/goal-get-hers/static/js/2.9e75418d.chunk.js.LICENSE.txt",
+    "static/media/dancer.a7662274.svg": "/goal-get-hers/static/media/dancer.a7662274.svg",
+    "static/media/field.d4fd02fe.svg": "/goal-get-hers/static/media/field.d4fd02fe.svg",
+    "static/media/ice-skater.b6094496.svg": "/goal-get-hers/static/media/ice-skater.b6094496.svg",
+    "static/media/jumbotron-img.c7276d82.svg": "/goal-get-hers/static/media/jumbotron-img.c7276d82.svg",
+    "static/media/money.a8d655c5.svg": "/goal-get-hers/static/media/money.a8d655c5.svg",
+    "static/media/runner.4d05a768.svg": "/goal-get-hers/static/media/runner.4d05a768.svg",
+    "static/media/support.e34dd498.svg": "/goal-get-hers/static/media/support.e34dd498.svg",
+    "static/media/yoga.e73e97ad.svg": "/goal-get-hers/static/media/yoga.e73e97ad.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.672c322b.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.9e75418d.chunk.js",
+    "static/css/main.6878fb35.chunk.css",
+    "static/js/main.4557f026.chunk.js"
+  ]
+}
