@@ -1,12 +1,7 @@
 import React from "react";
+import Yoga from "../yoga.svg";
+import ComingSoon from "./ComingSoon";
 
-export default function Team() {
-  return (
-    <div>
-      <h2>
-        Learn About Our Team
-        <div></div>
-      </h2>
-    </div>
-  );
+export default function Services() {
+  return <ComingSoon imgSrc={Yoga} />;
 }

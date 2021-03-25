@@ -1,16 +1,17 @@
 import React from "react";
-import { Row, Col, Jumbotron, Button, Card } from "react-bootstrap";
+import { Row, Col, Jumbotron, Button } from "react-bootstrap";
 import Badmitton from "../jumbotron-img.svg";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import About from "./About";
 import CardContainer from "./CardContainer";
+import ContactFooter from "./ContactFooter";
 
 export default function Home() {
   return (
     <Router>
       <Jumbotron fluid>
         <Row className="align-items-center">
-          <Col md={8} sm={10} xs={8}>
+          <Col md={8} sm={10} xs={12}>
             <h1>
               Goal GetHers believes that every girl should have access to an
               elite sports education.
@@ -28,7 +29,7 @@ export default function Home() {
               <a href="/about">Learn More</a>
             </Button>{" "}
           </Col>
-          <Col className="jumbotron-right" md={4} sm={2} xs={4}>
+          <Col className="jumbotron-right" md={4} sm={2} xs={0}>
             <img
               className="img-in-jumbotron"
               src={Badmitton}

@@ -1,9 +1,7 @@
 import React from "react";
+import Runner from "../runner.svg";
+import ComingSoon from "./ComingSoon";
 
-export default function About() {
-  return (
-    <div>
-      <h2>Our Mission Goes Here</h2>;
-    </div>
-  );
+export default function Services() {
+  return <ComingSoon imgSrc={Runner} />;
 }

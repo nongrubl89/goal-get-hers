@@ -1,10 +1,9 @@
 import { Card, Button } from "react-bootstrap";
 import React from "react";
-import Badmitton from "../jumbotron-img.svg";
 
 export default function HomeCard(props) {
   return (
-    <Card style={{ width: "18rem" }} className="shadow">
+    <Card className="shadow p-3">
       <Card.Img variant="top" src={props.cardImage} className="p-4" />
       <Card.Body>
         <Card.Title className="justify-content-center">

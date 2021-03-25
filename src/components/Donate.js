@@ -1,9 +1,7 @@
 import React from "react";
+import ComingSoon from "./ComingSoon";
+import Dancer from "../dancer.svg";
 
 export default function Donate() {
-  return (
-    <div>
-      <h2>How to Donate</h2>;
-    </div>
-  );
+  return <ComingSoon imgSrc={Dancer} />;
 }
