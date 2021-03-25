@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
 import Home from "./Home";
 import Team from "./Team";
@@ -10,7 +10,7 @@ import About from "./About";
 class Navigation extends React.Component {
   render() {
     return (
-      <Router>
+      <div>
         <Navbar className="navbar" expand="lg" sticky="top" variant="dark">
           <Navbar.Brand href="/">Goal GetHERS</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -29,23 +29,23 @@ class Navigation extends React.Component {
           </Navbar.Collapse>
         </Navbar>
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/" component={Home}>
             <Home />
           </Route>
-          <Route path="/team">
+          <Route path="/team" component={Team}>
             <Team />
           </Route>
-          <Route path="/donate">
+          <Route path="/donate" component={Donate}>
             <Donate />
           </Route>
-          <Route path="/services">
+          <Route path="/services" component={Services}>
             <Services />
           </Route>
           <Route path="/about">
             <About />
           </Route>
         </Switch>
-      </Router>
+      </div>
     );
   }
 }
