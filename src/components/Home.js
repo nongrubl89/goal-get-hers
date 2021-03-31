@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Jumbotron } from "react-bootstrap";
+import { Row, Col, Jumbotron, Button } from "react-bootstrap";
 import CardContainer from "./CardContainer";
 
 export default function Home() {
@@ -8,10 +8,11 @@ export default function Home() {
       <div>
         <Jumbotron fluid>
           <Row>
-            <Col md={6}>
+            <Col className="jumbotron-content" md={6}>
               <h1 className="text-in-jumbotron">
-                Goal GetHERS empowers girls to follow their dreams
+                Goal GetHERS empowers girls to follow their dreams.
               </h1>
+              <Button className="mt-1 p-3">About Us</Button>
             </Col>
           </Row>
         </Jumbotron>

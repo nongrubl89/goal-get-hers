@@ -6,21 +6,31 @@
 }
 
 .navbar-brand > img {
-  height: 4em;
-  width: 4em;
+  height: 3em;
+  width: 3em;
+}
+
+.navbar-dark {
+  background-color: var(--pink);
 }
 
 .nav-link {
-  color: white !important;
-  font-family: "Source Sans Pro", Sans-Serif;
-  font-size: 20px;
-  font-weight: 600;
+  color: black !important;
+  font-family: "Spartan", Sans-Serif;
+  font-size: 1em;
+  font-weight: 500;
 }
 
 .text-in-jumbotron {
-  padding-top: 4em;
-  padding-left: 2em;
   font-size: 3em !important;
+  font-family: "Spartan", Sans-Serif;
+  font-weight: 600;
+}
+
+.jumbotron-content {
+  margin-left: 5em;
+  margin-top: 10em;
+  margin-right: 1em;
 }
 
 p,
@@ -29,14 +39,14 @@ p,
   font-size: 20px;
 }
 
-.navbar-brand,
+/* .navbar-brand,
 h1,
 .card-title {
   font-family: "Playfair Display", Serif;
   font-size: 1.75em !important;
   font-weight: 800;
   color: var(--pink) !important;
-}
+} */
 
 .nav-link:hover {
   color: var(--pink) !important;
@@ -44,7 +54,7 @@ h1,
 
 .btn {
   background-color: var(--green) !important;
-  border: var(--green) im !important;
+  border: var(--green) !important;
 }
 
 .btn:hover {
