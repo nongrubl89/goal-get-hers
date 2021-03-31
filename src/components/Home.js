@@ -1,48 +1,22 @@
 import React from "react";
-import { Row, Col, Jumbotron, Button } from "react-bootstrap";
-import Badmitton from "../jumbotron-img.svg";
-import { HashRouter as Router, Switch, Route } from "react-router-dom";
-import About from "./About";
+import { Row, Col, Jumbotron } from "react-bootstrap";
 import CardContainer from "./CardContainer";
 
 export default function Home() {
   return (
-    <Router>
-      <Jumbotron fluid>
-        <Row className="align-items-center">
-          <Col md={8} sm={10} xs={12}>
-            <h1>
-              Goal GetHers believes that every girl should have access to an
-              elite sports education.
-            </h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum
-            </p>
-            <Button>
-              <a href="/about">Learn More</a>
-            </Button>{" "}
-          </Col>
-          <Col className="jumbotron-right" md={4} sm={2} xs={0}>
-            <img
-              className="img-in-jumbotron pt-3"
-              src={Badmitton}
-              alt="badmitton"
-            ></img>
-          </Col>
-        </Row>
-      </Jumbotron>
+    <div>
+      <div>
+        <Jumbotron fluid>
+          <Row>
+            <Col md={6}>
+              <h1 className="text-in-jumbotron">
+                Goal GetHERS empowers girls to follow their dreams
+              </h1>
+            </Col>
+          </Row>
+        </Jumbotron>
+      </div>
       <CardContainer />
-      <Switch>
-        <Route exact path="/about">
-          <About />
-        </Route>
-      </Switch>
-    </Router>
+    </div>
   );
 }

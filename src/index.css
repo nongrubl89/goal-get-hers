@@ -2,19 +2,25 @@
   --pink: #ea96ed;
   --green: #28a428;
   --orange: #ff8533;
-  --navy: #022650;
+  --navy: #203054;
 }
 
-.navbar {
-  background-color: var(--navy);
-  padding: 1rem 3em !important;
-  border-top: 4px solid var(--orange);
+.navbar-brand > img {
+  height: 4em;
+  width: 4em;
 }
 
 .nav-link {
   color: white !important;
   font-family: "Source Sans Pro", Sans-Serif;
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.text-in-jumbotron {
+  padding-top: 4em;
+  padding-left: 2em;
+  font-size: 3em !important;
 }
 
 p,
@@ -34,14 +40,6 @@ h1,
 
 .nav-link:hover {
   color: var(--pink) !important;
-}
-
-.img-in-jumbotron {
-  max-height: 325px;
-}
-
-.jumbotron-fluid {
-  padding: 3em !important;
 }
 
 .btn {
@@ -65,4 +63,30 @@ a:hover {
 
 .donate-link {
   color: var(--pink) !important;
+}
+
+.jumbotron-fluid {
+  position: relative !important;
+  background: none !important;
+}
+
+.jumbotron-fluid:after {
+  content: "" !important;
+  display: block !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  background-image: url(./header.jpg) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+  width: 100% !important;
+  height: 600px !important;
+  opacity: 0.7 !important;
+  z-index: -1 !important;
+  margin-bottom: 2em;
+}
+
+.container {
+  padding-top: 18em;
 }
