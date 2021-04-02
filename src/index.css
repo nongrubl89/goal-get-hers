@@ -1,24 +1,24 @@
 :root {
-  --pink: #ea96ed;
+  --pink: #f681b5;
   --green: #28a428;
   --orange: #ff8533;
   --navy: #203054;
 }
 
 .navbar-brand > img {
-  height: 3em;
-  width: 3em;
+  height: 4em;
+  width: 4em;
 }
 
 .navbar-dark {
-  background-color: var(--pink);
+  background-color: #f681b5;
 }
 
 .nav-link {
-  color: black !important;
+  color: white !important;
   font-family: "Spartan", Sans-Serif;
-  font-size: 1em;
-  font-weight: 500;
+  font-size: 0.9em;
+  font-weight: 400;
 }
 
 .text-in-jumbotron {
@@ -53,13 +53,8 @@ h1,
 }
 
 .btn {
-  background-color: var(--green) !important;
-  border: var(--green) !important;
-}
-
-.btn:hover {
-  background-color: #1c7c13 !important;
-  border: #1c7c13 !important;
+  background-color: var(--navy) !important;
+  border: var(--navy) !important;
 }
 
 a {
@@ -69,10 +64,6 @@ a {
 
 a:hover {
   text-decoration: none !important;
-}
-
-.donate-link {
-  color: var(--pink) !important;
 }
 
 .jumbotron-fluid {
@@ -98,5 +89,9 @@ a:hover {
 }
 
 .container {
-  padding-top: 18em;
+  padding-top: 10em;
+}
+
+h2 > .bi {
+  font-size: 100px;
 }

@@ -28,6 +28,15 @@ export default function Navigation() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav className="justify-content-end">
+            <Nav.Link href="facebook.com">
+              <i class="bi bi-facebook"></i>
+            </Nav.Link>
+            <Nav.Link href="instagram.com">
+              <i class="bi bi-instagram"></i>
+            </Nav.Link>
+            <Nav.Link href="twitter.com">
+              <i class="bi bi-twitter"></i>
+            </Nav.Link>
             <Nav.Link href="/about">Our Mission</Nav.Link>
             <Nav.Link href="/team">Team</Nav.Link>
             <Nav.Link href="/services">Services</Nav.Link>

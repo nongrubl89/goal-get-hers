@@ -3,16 +3,15 @@ import React from "react";
 
 export default function HomeCard(props) {
   return (
-    <Card className="shadow p-3">
-      <Card.Img variant="top" src={props.cardImage} className="p-4" />
+    <Card className="border-0">
       <Card.Body>
         <Card.Title className="justify-content-center">
           {props.cardTitle}
         </Card.Title>
+        <h2>
+          <i className={props.cardImage}></i>
+        </h2>
         <Card.Text>{props.cardText}</Card.Text>
-        <Button className="align-content-end" variant="primary">
-          {props.buttonText}
-        </Button>
       </Card.Body>
     </Card>
   );
