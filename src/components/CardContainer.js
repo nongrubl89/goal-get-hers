@@ -8,7 +8,7 @@ import Field from "../field.svg";
 export default function CardContainer() {
   return (
     <Container>
-      <CardDeck>
+      <CardDeck className="text-center">
         <HomeCard
           cardTitle="Meet"
           cardImage="bi bi-book"

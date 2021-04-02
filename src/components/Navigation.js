@@ -25,7 +25,10 @@ export default function Navigation() {
         <Navbar.Brand href="/">
           <img src={Logo} alt="logo"></img>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle
+          aria-controls="basic-navbar-nav"
+          onClick={() => setScroll(!scroll)}
+        />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav className="justify-content-end">
             <Nav.Link href="facebook.com">

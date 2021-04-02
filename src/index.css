@@ -49,12 +49,16 @@ h1,
 } */
 
 .nav-link:hover {
-  color: var(--pink) !important;
+  color: var(--navy) !important;
 }
 
 .btn {
   background-color: var(--navy) !important;
   border: var(--navy) !important;
+}
+
+.btn:hover {
+  opacity: 80%;
 }
 
 a {
