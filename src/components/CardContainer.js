@@ -1,14 +1,11 @@
 import React from "react";
 import { Container, CardDeck } from "react-bootstrap";
 import HomeCard from "./HomeCard";
-import Support from "../support.svg";
-import Money from "../money.svg";
-import Field from "../field.svg";
 
 export default function CardContainer() {
   return (
     <Container>
-      <CardDeck className="text-center">
+      <CardDeck className="text-center pb-4">
         <HomeCard
           cardTitle="Meet"
           cardImage="bi bi-book"

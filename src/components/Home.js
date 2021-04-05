@@ -2,6 +2,7 @@ import React from "react";
 import { Row, Col, Jumbotron, Button } from "react-bootstrap";
 import CardContainer from "./CardContainer";
 import EmailContainer from "./EmailContainer";
+import ContactContainer from "./ContactContainer";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       </div>
       <CardContainer />
       <EmailContainer />
+      <ContactContainer />
     </div>
   );
 }

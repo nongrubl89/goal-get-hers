@@ -1,9 +1,10 @@
 import React from "react";
 import Logo from "../OrangeLogo.png";
+import ScrollAnimation from "react-animate-on-scroll";
 
 export default function ContactFooter() {
   return (
-    <div>
+    <ScrollAnimation animateIn="fadeIn">
       <footer className="my-5 pt-5 text-muted text-center text-small">
         <div className="mb-1 text-center">
           <img className="logo-in-footer" src={Logo} alt="logo"></img>
@@ -20,6 +21,6 @@ export default function ContactFooter() {
           </li>
         </ul>
       </footer>
-    </div>
+    </ScrollAnimation>
   );
 }

@@ -1,9 +1,14 @@
 import { Card } from "react-bootstrap";
-import React from "react";
+import { React, useState } from "react";
 
 export default function HomeCard(props) {
+  const [hovered, setHovered] = useState(false);
   return (
-    <Card className="border-0">
+    <Card
+      className={hovered ? "border-0 shadow-lg" : "border-0"}
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
+    >
       <Card.Body>
         <Card.Title className="justify-content-center">
           {props.cardTitle}
