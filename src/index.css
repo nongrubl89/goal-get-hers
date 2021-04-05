@@ -1,7 +1,7 @@
 :root {
   --pink: #f681b5;
   --green: #28a428;
-  --orange: #ff8533;
+  --orange: #ff8949;
   --navy: #203054;
 }
 
@@ -27,6 +27,22 @@
   font-weight: 600;
 }
 
+h3 {
+  font-family: "Spartan", Sans-Serif;
+  font-weight: 600;
+  color: #f681b5;
+}
+
+h5 {
+  font-family: "Spartan", Sans-Serif;
+  font-weight: 200 !important;
+  line-height: 2rem !important;
+}
+
+.container-fluid > .btn {
+  background-color: var(--orange) !important;
+}
+
 .jumbotron-content {
   margin-left: 5em;
   margin-top: 10em;
@@ -39,21 +55,12 @@ p,
   font-size: 20px;
 }
 
-/* .navbar-brand,
-h1,
-.card-title {
-  font-family: "Playfair Display", Serif;
-  font-size: 1.75em !important;
-  font-weight: 800;
-  color: var(--pink) !important;
-} */
-
 .nav-link:hover {
   color: var(--navy) !important;
 }
 
 .btn {
-  background-color: var(--navy) !important;
+  background-color: var(--orange) !important;
   border: var(--navy) !important;
 }
 
@@ -103,6 +110,6 @@ h2 > .bi {
 .container-fluid {
   background-color: var(--navy);
   color: white;
-  padding-top: 4em !important;
-  padding-bottom: 4em !important;
+  padding-top: 6em !important;
+  padding-bottom: 6em !important;
 }

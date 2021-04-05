@@ -10,6 +10,7 @@ import Logo from "../OrangeLogo.png";
 
 export default function Navigation() {
   const [scroll, setScroll] = useState(false);
+
   useEffect(() => {
     window.addEventListener("scroll", () => {
       setScroll(window.scrollY < 60);
@@ -27,7 +28,10 @@ export default function Navigation() {
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="basic-navbar-nav"
-          onClick={() => setScroll(!scroll)}
+          onClick={() => {
+            if (!scroll) return;
+            else setScroll(!scroll);
+          }}
         />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav className="justify-content-end">

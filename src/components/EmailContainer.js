@@ -16,7 +16,7 @@ export default function EmailContainer() {
             We envision a world where all women are change agents and “she-roes”
             for their communities, through giving, volunteering, and activism.{" "}
           </h5>
-          <Button onClick={handleShow} className="mt-1 p-3">
+          <Button onClick={handleShow} className="mt-1 mb-4 p-3">
             Subscribe
           </Button>
         </Col>
