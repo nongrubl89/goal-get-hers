@@ -99,3 +99,10 @@ a:hover {
 h2 > .bi {
   font-size: 100px;
 }
+
+.container-fluid {
+  background-color: var(--navy);
+  color: white;
+  padding-top: 4em !important;
+  padding-bottom: 4em !important;
+}

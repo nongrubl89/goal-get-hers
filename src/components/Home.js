@@ -1,6 +1,7 @@
 import React from "react";
 import { Row, Col, Jumbotron, Button } from "react-bootstrap";
 import CardContainer from "./CardContainer";
+import EmailContainer from "./EmailContainer";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         </Jumbotron>
       </div>
       <CardContainer />
+      <EmailContainer />
     </div>
   );
 }
