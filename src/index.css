@@ -112,4 +112,16 @@ h2 > .bi {
   color: white;
   padding-top: 6em !important;
   padding-bottom: 6em !important;
+  padding-left: 2em !important;
+  padding-right: 2em !important;
+}
+
+.logo-in-footer {
+  width: 12em !important;
+  height: 12em !important;
+}
+
+li > i {
+  font-size: 24px;
+  color: black;
 }
