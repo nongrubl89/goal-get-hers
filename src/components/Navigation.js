@@ -13,7 +13,7 @@ export default function Navigation() {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      setScroll(window.scrollY < 60);
+      setScroll(window.scrollY < 70);
     });
   }, []);
   return (

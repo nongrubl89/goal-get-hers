@@ -12,6 +12,7 @@
 
 .navbar-dark {
   background-color: #f681b5;
+  border-bottom: 4px solid var(--green);
 }
 
 .nav-link {
@@ -22,7 +23,7 @@
 }
 
 .text-in-jumbotron {
-  font-size: 3em !important;
+  font-size: 2.5em !important;
   font-family: "Spartan", Sans-Serif;
   font-weight: 600;
 }
@@ -133,4 +134,10 @@ h2 > .bi {
 li > i {
   font-size: 24px;
   color: black;
+}
+
+.footer {
+  background-color: var(--navy);
+  left: 0;
+  bottom: 0;
 }

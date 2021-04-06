@@ -5,7 +5,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 export default function ContactFooter() {
   return (
     <ScrollAnimation animateIn="fadeIn">
-      <footer className="my-5 pt-5 text-muted text-center text-small">
+      <footer className="footer my-5 pt-5 text-muted text-center text-small">
         <div className="mb-1 text-center">
           <img className="logo-in-footer" src={Logo} alt="logo"></img>
         </div>

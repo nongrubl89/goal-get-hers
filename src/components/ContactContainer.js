@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Form } from "react-bootstrap";
+import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import ScrollAnimation from "react-animate-on-scroll";
 
 export default function ContactContainer() {
@@ -18,18 +18,25 @@ export default function ContactContainer() {
           </Col>
           <Col md={5}>
             <Form>
-              <Form.Group controlId="formGroupFirstName">
-                <Form.Label>First Name</Form.Label>
-                <Form.Control type="name" placeholder="First Name" />
-              </Form.Group>
-              <Form.Group controlId="formGroupLastName">
-                <Form.Label>Last Name</Form.Label>
-                <Form.Control type="name" placeholder="Last Name" />
-              </Form.Group>
+              <Row>
+                <Col md={6}>
+                  <Form.Group controlId="formGroupFirstName">
+                    <Form.Label>Name</Form.Label>
+                    <Form.Control type="name" placeholder="Name" />
+                  </Form.Group>
+                </Col>
+                <Col md={6}>
+                  <Form.Group controlId="formGroupLastName">
+                    <Form.Label>Email</Form.Label>
+                    <Form.Control type="name" placeholder="name@email.com" />
+                  </Form.Group>
+                </Col>
+              </Row>
               <Form.Group controlId="formGroupEmail">
-                <Form.Label>Email</Form.Label>
-                <Form.Control type="password" placeholder="Email" />
+                <Form.Label>Message</Form.Label>
+                <Form.Control type="text" placeholder="Message" />
               </Form.Group>
+              <Button className="p-3">Send</Button>
             </Form>
           </Col>
         </Row>
