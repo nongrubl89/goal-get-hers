@@ -7,19 +7,26 @@ import Donate from "./Donate";
 import Services from "./Services";
 import About from "./About";
 import Logo from "../OrangeLogo.png";
+import { useLocation } from "react-router-dom";
 
 export default function Navigation() {
   const [scroll, setScroll] = useState(false);
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      setScroll(window.scrollY < 70);
+      setScroll(window.scrollY < 80);
     });
   }, []);
+
+  const location = useLocation();
+  console.log(location.pathname);
+
   return (
     <div>
       <Navbar
-        className={scroll ? "navbar" : "navbar-dark"}
+        className={
+          scroll && location.pathname === "/" ? "navbar" : "navbar-dark"
+        }
         fixed="top"
         expand="lg"
       >

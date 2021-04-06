@@ -1,7 +1,8 @@
 import React from "react";
-import Yoga from "../yoga.svg";
+import Hockey from "../hockey.jpg";
 import ComingSoon from "./ComingSoon";
+import { Container, Row, Col, Jumbotron } from "react-bootstrap";
 
 export default function Services() {
-  return <ComingSoon imgSrc={Yoga} />;
+  return <ComingSoon imgSrc={Hockey} />;
 }
