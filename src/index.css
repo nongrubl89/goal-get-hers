@@ -66,10 +66,6 @@ p,
   border: var(--navy) !important;
 }
 
-.btn:hover {
-  opacity: 80%;
-}
-
 a {
   text-decoration: none;
   color: white !important;
@@ -135,9 +131,19 @@ li > i {
   font-size: 24px;
   color: black;
 }
+body {
+  margin-bottom: 200px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
 
 .footer {
-  background-color: var(--navy);
-  left: 0;
+  background-color: var(--navy) !important;
+  position: absolute;
+  width: 100%;
   bottom: 0;
+  height: 200px;
 }
