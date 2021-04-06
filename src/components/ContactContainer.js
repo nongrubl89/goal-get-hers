@@ -32,9 +32,9 @@ export default function ContactContainer() {
                   </Form.Group>
                 </Col>
               </Row>
-              <Form.Group controlId="formGroupEmail">
+              <Form.Group controlId="exampleForm.ControlTextarea1">
                 <Form.Label>Message</Form.Label>
-                <Form.Control type="text" placeholder="Message" />
+                <Form.Control as="textarea" rows={3} />
               </Form.Group>
               <Button className="p-3">Send</Button>
             </Form>

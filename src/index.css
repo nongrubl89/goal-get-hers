@@ -142,8 +142,4 @@ html {
 
 .footer {
   background-color: var(--navy) !important;
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-  height: 200px;
 }
