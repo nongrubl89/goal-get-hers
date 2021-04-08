@@ -143,3 +143,12 @@ html {
 .footer {
   background-color: var(--navy) !important;
 }
+
+#bottom-nav {
+  background-color: var(--navy) !important;
+}
+
+li > i {
+  color: white;
+  padding: 0.25em;
+}

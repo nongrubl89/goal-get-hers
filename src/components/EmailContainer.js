@@ -24,7 +24,7 @@ export default function EmailContainer() {
             </Button>
           </Col>
           <Col md={5}>
-            <h3>Become a Goal GetHERS Partner</h3>
+            <h3>Become a Goal GetHERs Partner</h3>
             <h5>
               We’re always looking for new organizations, associations, and
               nonprofits to partner with, along with companies interested in

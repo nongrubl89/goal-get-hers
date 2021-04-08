@@ -12,7 +12,7 @@ export default function Home() {
           <Row>
             <Col className="jumbotron-content" md={6}>
               <h1 className="text-in-jumbotron">
-                Goal GetHERS empowers girls to follow their dreams.
+                Goal GetHERs empowers girls to follow their dreams.
               </h1>
               <Button className="mt-1 p-3">About Us</Button>
             </Col>

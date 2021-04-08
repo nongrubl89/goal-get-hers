@@ -1,26 +1,35 @@
 import React from "react";
 import Logo from "../OrangeLogo.png";
 import ScrollAnimation from "react-animate-on-scroll";
+import { Nav, Row, Col } from "react-bootstrap";
 
 export default function ContactFooter() {
   return (
-    <ScrollAnimation animateIn="fadeIn">
-      <footer className="footer my-5 pt-5 text-muted text-center text-small">
-        <div className="mb-1 text-center">
+    <>
+      <ScrollAnimation animateIn="fadeIn">
+        <Nav
+          id="bottom-nav"
+          class="navbar navbar-bottom justify-content-center"
+        >
           <img className="logo-in-footer" src={Logo} alt="logo"></img>
-        </div>
-        <ul className="list-inline">
-          <li className="list-inline-item">
-            <i class="bi bi-facebook"></i>
-          </li>
-          <li className="list-inline-item">
-            <i class="bi bi-instagram"></i>
-          </li>
-          <li className="list-inline-item">
-            <i class="bi bi-twitter"></i>
-          </li>
-        </ul>
-      </footer>
-    </ScrollAnimation>
+        </Nav>
+        <Nav
+          id="bottom-nav"
+          class="navbar navbar-bottom navbar-light bg-light justify-content-center"
+        >
+          <ul className="list-inline">
+            <li className="list-inline-item">
+              <i class="bi bi-facebook"></i>
+            </li>
+            <li className="list-inline-item">
+              <i class="bi bi-instagram"></i>
+            </li>
+            <li className="list-inline-item">
+              <i class="bi bi-twitter"></i>
+            </li>
+          </ul>
+        </Nav>
+      </ScrollAnimation>
+    </>
   );
 }

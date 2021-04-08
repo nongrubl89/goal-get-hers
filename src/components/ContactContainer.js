@@ -10,8 +10,8 @@ export default function ContactContainer() {
           <Col md={{ offset: 1, span: 5 }}>
             <h3>Get in touch</h3>
             <h5>
-              Maybe you want to bring Women4Good to your city. Maybe you want to
-              find ways to volunteer with us. Or maybe you have a fundraising
+              Maybe you want to bring Goal GetHERs to your city. Maybe you want
+              to find ways to volunteer with us. Or maybe you have a fundraising
               idea to share with the world. Whatever it is, we’d love to hear
               from you.
             </h5>
