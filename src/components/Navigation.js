@@ -7,6 +7,7 @@ import Donate from "./Donate";
 import Services from "./Services";
 import About from "./About";
 import Logo from "../OrangeLogo.png";
+import Volunteer from "./Volunteer";
 import { useLocation } from "react-router-dom";
 
 export default function Navigation() {
@@ -54,7 +55,7 @@ export default function Navigation() {
             <Nav.Link href="/about">Our Mission</Nav.Link>
             <Nav.Link href="/team">Team</Nav.Link>
             <Nav.Link href="/services">Services</Nav.Link>
-            <Nav.Link href="/services">Get Involved</Nav.Link>
+            <Nav.Link href="/volunteer">Get Involved</Nav.Link>
             <Nav.Link className="donate-link" href="/donate">
               Donate
             </Nav.Link>
@@ -67,6 +68,9 @@ export default function Navigation() {
         </Route>
         <Route path="/team" component={Team}>
           <Team />
+        </Route>
+        <Route path="/volunteer" component={Volunteer}>
+          <Volunteer />
         </Route>
         <Route path="/donate" component={Donate}>
           <Donate />
