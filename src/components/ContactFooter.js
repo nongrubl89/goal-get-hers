@@ -1,19 +1,19 @@
 import React from "react";
 import Logo from "../OrangeLogo.png";
 import ScrollAnimation from "react-animate-on-scroll";
-import { Nav } from "react-bootstrap";
+import { Navbar } from "react-bootstrap";
 
 export default function ContactFooter() {
   return (
     <>
       <ScrollAnimation animateIn="fadeIn">
-        <Nav
+        <Navbar
           id="bottom-nav"
           class="navbar navbar-bottom justify-content-center"
         >
           <img className="logo-in-footer" src={Logo} alt="logo"></img>
-        </Nav>
-        <Nav
+        </Navbar>
+        <Navbar
           id="bottom-nav"
           class="navbar navbar-bottom navbar-light bg-light justify-content-center"
         >
@@ -28,7 +28,7 @@ export default function ContactFooter() {
               <i class="bi bi-twitter"></i>
             </li>
           </ul>
-        </Nav>
+        </Navbar>
       </ScrollAnimation>
     </>
   );
