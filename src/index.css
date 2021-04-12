@@ -6,7 +6,6 @@
 }
 
 html {
-  position: relative;
   height: 100%;
 }
 
@@ -152,4 +151,19 @@ body {
 li > i {
   color: white;
   padding: 0.25em;
+}
+
+form input {
+  margin: 0.75em;
+  padding: 0.5em;
+  border-radius: 6px;
+  border: whitesmoke 2px solid;
+}
+
+form button {
+  margin: 0.75em;
+  border: none;
+  background-color: #f681b5;
+  padding: 0.75em;
+  border-radius: 6px;
 }
