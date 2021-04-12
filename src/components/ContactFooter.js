@@ -9,23 +9,23 @@ export default function ContactFooter() {
       <ScrollAnimation animateIn="fadeIn">
         <Navbar
           id="bottom-nav"
-          class="navbar navbar-bottom justify-content-center"
+          className="navbar navbar-bottom justify-content-center"
         >
           <img className="logo-in-footer" src={Logo} alt="logo"></img>
         </Navbar>
         <Navbar
           id="bottom-nav"
-          class="navbar navbar-bottom navbar-light bg-light justify-content-center"
+          className="navbar navbar-bottom navbar-light bg-light justify-content-center"
         >
           <ul className="list-inline">
             <li className="list-inline-item">
-              <i class="bi bi-facebook"></i>
+              <i className="bi bi-facebook"></i>
             </li>
             <li className="list-inline-item">
-              <i class="bi bi-instagram"></i>
+              <i className="bi bi-instagram"></i>
             </li>
             <li className="list-inline-item">
-              <i class="bi bi-twitter"></i>
+              <i className="bi bi-twitter"></i>
             </li>
           </ul>
         </Navbar>
