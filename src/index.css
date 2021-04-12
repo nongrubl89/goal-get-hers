@@ -5,6 +5,11 @@
   --navy: #203054;
 }
 
+html {
+  position: relative;
+  height: 100%;
+}
+
 .navbar-brand > img {
   height: 5em;
   width: 5em;
@@ -134,11 +139,6 @@ li > i {
 }
 body {
   margin-bottom: 200px;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
 }
 
 .footer {

@@ -13,9 +13,9 @@ export default function ContactFooter() {
         >
           <img className="logo-in-footer" src={Logo} alt="logo"></img>
         </Navbar>
-        {/* <Navbar
+        <Navbar
           id="bottom-nav"
-          className="navbar navbar-bottom navbar-light bg-light justify-content-center"
+          className="navbar navbar-bottom justify-content-center"
         >
           <ul className="list-inline">
             <li className="list-inline-item">
@@ -28,7 +28,7 @@ export default function ContactFooter() {
               <i className="bi bi-twitter"></i>
             </li>
           </ul>
-        </Navbar> */}
+        </Navbar>
       </ScrollAnimation>
     </>
   );
