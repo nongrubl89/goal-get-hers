@@ -1,7 +1,7 @@
 import React from "react";
-import Logo from "../OrangeLogo.png";
+import Logo from "../OrangeLogo.PNG";
 import ScrollAnimation from "react-animate-on-scroll";
-import { Nav, Row, Col } from "react-bootstrap";
+import { Nav } from "react-bootstrap";
 
 export default function ContactFooter() {
   return (

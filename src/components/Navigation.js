@@ -6,7 +6,7 @@ import Team from "./Team";
 import Donate from "./Donate";
 import Services from "./Services";
 import About from "./About";
-import Logo from "../OrangeLogo.png";
+import Logo from "../OrangeLogo.PNG";
 import Volunteer from "./Volunteer";
 import { useLocation } from "react-router-dom";
 

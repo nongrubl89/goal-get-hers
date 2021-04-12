@@ -6,20 +6,25 @@
 }
 
 .navbar-brand > img {
-  height: 4em;
-  width: 4em;
+  height: 5em;
+  width: 5em;
 }
 
 .navbar-dark {
-  background-color: #f681b5;
-  border-bottom: 4px solid var(--green);
+  background-color: var(--navy);
+  border-bottom: 4px solid #f681b5;
 }
 
 .nav-link {
   color: white !important;
   font-family: "Spartan", Sans-Serif;
   font-size: 0.9em;
-  font-weight: 400;
+  font-weight: 500;
+}
+
+.nav-link:hover,
+li > i:hover {
+  color: var(--green) !important;
 }
 
 .text-in-jumbotron {
@@ -31,7 +36,7 @@
 h3 {
   font-family: "Spartan", Sans-Serif;
   font-weight: 600;
-  color: #f681b5;
+  color: var(--green);
 }
 
 h5,
@@ -57,12 +62,8 @@ p,
   font-size: 20px;
 }
 
-.nav-link:hover {
-  color: var(--navy) !important;
-}
-
 .btn {
-  background-color: var(--orange) !important;
+  background-color: #f681b5 !important;
   border: var(--navy) !important;
 }
 
@@ -123,8 +124,8 @@ h2 > .bi {
 }
 
 .logo-in-footer {
-  width: 12em !important;
-  height: 12em !important;
+  width: 13em !important;
+  height: 13em !important;
 }
 
 li > i {
