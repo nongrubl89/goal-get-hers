@@ -4,6 +4,7 @@ import CardContainer from "./CardContainer";
 import EmailContainer from "./EmailContainer";
 import ContactContainer from "./ContactContainer";
 import { Switch, Route } from "react-router-dom";
+import InstagramContainer from "./InstaContainer";
 import About from "./About";
 
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
       <CardContainer />
       <EmailContainer />
       <ContactContainer />
+      <InstagramContainer />
       <Switch>
         <Route exact path="/about" component={About}>
           <Home />

@@ -1,5 +1,5 @@
 import React from "react";
-import { Modal, Button, Form } from "react-bootstrap";
+import { Modal } from "react-bootstrap";
 import Mailchimp from "react-mailchimp-form";
 
 export default function EmailModal(props) {
@@ -9,22 +9,8 @@ export default function EmailModal(props) {
         <Modal.Title>Join the Goal GetHERS mailing list</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        {/* <Form>
-            <Form.Group controlId="formGroupFirstName">
-              <Form.Label>First Name</Form.Label>
-              <Form.Control type="name" placeholder="First Name" />
-            </Form.Group>
-            <Form.Group controlId="formGroupLastName">
-              <Form.Label>Last Name</Form.Label>
-              <Form.Control type="name" placeholder="Last Name" />
-            </Form.Group>
-            <Form.Group controlId="formGroupEmail">
-              <Form.Label>Email</Form.Label>
-              <Form.Control type="password" placeholder="Email" />
-            </Form.Group>
-          </Form> */}
         <Mailchimp
-          action="https://Goalgethers.us1.list-manage.com/subscribe/post?u=ea5e4f94b3a03cfd8d537f2ed&amp;id=fec0f2f1e0"
+          action={process.env.REACT_APP_MAILCHIMP_URL}
           fields={[
             {
               name: "FNAME",

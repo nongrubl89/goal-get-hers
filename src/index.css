@@ -37,7 +37,8 @@ li > i:hover {
   font-weight: 600;
 }
 
-h3 {
+h3,
+#instagram-header {
   font-family: "Spartan", Sans-Serif;
   font-weight: 600;
   color: var(--green);
